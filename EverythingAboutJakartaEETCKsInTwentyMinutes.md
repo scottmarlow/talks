@@ -39,6 +39,23 @@ This talk will be a quick (20 minute) introduction to the Jakarta EE TCK project
 
 ---
 
+![Platform TCK repository](https://github.com/scottmarlow/talks/raw/refs/heads/main/platformtckrepo.png "Platform TCK repository")
+- 4. Deeper dive into TCKs
+	- Prove that Persistence (EE) container can access third party persistence provider https://github.com/jakartaee/platform-tck/blob/main/tcks/apis/persistence/persistence-inside-container/platform-tests/src/main/java/ee/jakarta/tck/persistence/ee/pluggability/contracts/resource_local/Client.java#L77
+		- @testName: createEMF @assertion_ids: PERSISTENCE:JAVADOC:1479; PERSISTENCE:SPEC:981; PERSISTENCE:SPEC:982
+			- What is an assertion_id???
+			- See map from ^ ID to JavaDoc via https://github.com/jakartaee/platform-tck/blob/main/tcks/apis/persistence/persistence-inside-container/docs/assertions/2.0/PersistenceJavaDocAssertions_2_0.xml
+			- See map from ^ ID to Spec via https://github.com/jakartaee/platform-tck/blob/main/tcks/apis/persistence/persistence-inside-container/docs/assertions/2.0/PersistenceSpecAssertions_2_0.xml
+				- PERSISTENCE:SPEC:981 = "The interface jakarta.persistence.spi.PersistenceProvider is implemented by the persistence provider"
+				- PERSISTENCE:JAVADOC:1479 = "Called by the container when an EntityManagerFactory is to be created."
+				- some other details are also added as well.
+		- The test assertion ids give an idea of which Jakarta EE Specification or JavaDoc (really SPEC API) requirement is tested by a TCK test.
+		- As you can see from the above links it is not that easy to locate the reason why a test was added to the TCK.
+		- https://github.com/jakartaee/platform-tck/issues/2006 is for adding an TCK AssertionID annotation that can instead be used in newly added tests
+			- Perhaps ^ can be based on "Test Assertions Guidelines" http://docs.oasis-open.org/tag/guidelines/v1.0/cn02/guidelines-v1.0-cn02.pdf 
+
+---
+
 ![Resource links](https://github.com/scottmarlow/talks/raw/refs/heads/main/links.png "Resource links")
 
 -  4. Resources
