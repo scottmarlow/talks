@@ -38,26 +38,9 @@ This talk will be a quick (20 minute) introduction to the Jakarta EE TCK project
 			- Later for Jakarta EE 12 we will see how far we get with further improvements.
 
 ---
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+![Resource links](https://github.com/scottmarlow/talks/raw/refs/heads/main/links.png "Resource links")
+
 -  4. Resources
 	- Sign up for the Platform TCK mailing list https://accounts.eclipse.org/mailing-list/jakartaee-tck-dev 
 	- Sign up for other Jakarta EE mailing lists https://jakarta.ee/connect/mailing-lists/
