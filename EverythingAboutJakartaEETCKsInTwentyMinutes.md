@@ -47,3 +47,4 @@ This talk will be a quick (20 minute) introduction to the Jakarta EE TCK project
 	- Platform TCK mailing list https://github.com/jakartaee/platform-tck
 	- Platform TCK project page https://projects.eclipse.org/projects/ee4j.jakartaee-tck
 	- Jakarta EE Specifications https://jakarta.ee/specifications/
+
