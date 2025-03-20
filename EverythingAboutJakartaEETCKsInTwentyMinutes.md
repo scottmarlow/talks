@@ -1,7 +1,7 @@
 
 This talk will be a quick (20 minute) introduction to the Jakarta EE TCK projects like https://github.com/jakartaee/platform-tck/
 
-- Purpose of EE TCKs (test compatibility kits)
+- 1. Purpose of EE TCKs (test compatibility kits)
 	- Validate that Jakarta EE implementations correctly implement the Jakarta EE Specifications (e.g. Plaform, Web Profile, Persistence, CDI, Servlet, ...)
 	- Is 100% of the Specification requirements tested and is 100% of APIs tested?
 		- No, only the most difficult to implement aspects are tested.
@@ -19,7 +19,7 @@ This talk will be a quick (20 minute) introduction to the Jakarta EE TCK project
 &nbsp;
 &nbsp;
 &nbsp;
-- Relationship between the TCK tests and your applications
+- 2. Relationship between the TCK tests and your applications
 	- How do applications benefit from WildFly passing TCK tests?
 		- Ensures that applications written to the EE specs are (somewhat) portable to different Jakarta EE implementations.
 		- Why exactly only somewhat portable?
@@ -48,7 +48,7 @@ This talk will be a quick (20 minute) introduction to the Jakarta EE TCK project
 &nbsp;
 &nbsp;
 &nbsp;
-- How to ensure your application is portable to different EE implementations
+- 3. How to ensure your application is portable to different EE implementations
 	- More clearly, assume that your application depends on a Persistence SPEC API method foobar() and foobar doesn't work as described in the Persistence SPEC document.  Of course there is no foobar method but this is just an example.
 		- You can create a https://github.com/jakartaee/platform-tck pull request to add a test for the foobar method that all Jakarta EE implementations will have to pass.  
 			- Also sign the Eclipse contributor agreement (https://accounts.eclipse.org/user/eca) using your email address that you associated with your github account.
@@ -82,7 +82,7 @@ This talk will be a quick (20 minute) introduction to the Jakarta EE TCK project
 &nbsp;
 &nbsp;
 &nbsp;
--  Resources
+-  4. Resources
 	- Sign up for the Platform TCK mailing list https://accounts.eclipse.org/mailing-list/jakartaee-tck-dev 
 	- Sign up for other Jakarta EE mailing lists https://jakarta.ee/connect/mailing-lists/
 	- Platform TCK mailing list https://github.com/jakartaee/platform-tck
