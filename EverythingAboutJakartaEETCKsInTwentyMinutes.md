@@ -9,16 +9,8 @@ This talk will be a quick (20 minute) introduction to the Jakarta EE TCK project
 		- Not sure but we once calculated it would take around 3 days on a single computer with earlier EE versions.  With WildFly + Jakarta EE 10, it takes around 6-9 hours to run on multiple (CI) virtual machines.
 
 ---
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+![Jakarta EE Compatible implementations](https://jakarta.ee/images/jakarta/jakarta-ee-compatible-logo-color.svg "Jakarta EE Compatible implementations")
+
 - 2. Relationship between the TCK tests and your applications
 	- How do applications benefit from WildFly passing TCK tests?
 		- Ensures that applications written to the EE specs are (somewhat) portable to different Jakarta EE implementations.
