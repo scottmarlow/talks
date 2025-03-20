@@ -9,6 +9,7 @@ This talk will be a quick (20 minute) introduction to the Jakarta EE TCK project
 		- Not sure but we once calculated it would take around 3 days on a single computer with earlier EE versions.  With WildFly + Jakarta EE 10, it takes around 6-9 hours to run on multiple (CI) virtual machines.
 
 ---
+
 ![Jakarta EE Compatible implementations](https://jakarta.ee/images/jakarta/jakarta-ee-compatible-logo-color.svg "Jakarta EE Compatible implementations")
 
 - 2. Relationship between the TCK tests and your applications
@@ -20,26 +21,9 @@ This talk will be a quick (20 minute) introduction to the Jakarta EE TCK project
 			- Yes you can add new tests for the next EE release being developed.  This will soon be Jakarta EE 12.  See the next slide for more information.
 
 ---
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+![Platform TCK repository](https://github.com/scottmarlow/talks/raw/refs/heads/main/platformtckrepo.png "Platform TCK repository")
+
 - 3. How to ensure your application is portable to different EE implementations
 	- More clearly, assume that your application depends on a Persistence SPEC API method foobar() and foobar doesn't work as described in the Persistence SPEC document.  Of course there is no foobar method but this is just an example.
 		- You can create a https://github.com/jakartaee/platform-tck pull request to add a test for the foobar method that all Jakarta EE implementations will have to pass.  
