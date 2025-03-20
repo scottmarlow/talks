@@ -10,6 +10,15 @@ This talk will be a quick (20 minute) introduction to the Jakarta EE TCK project
 
 ---
 
+
+
+
+
+
+
+
+
+
 - Relationship between the TCK tests and your applications
 	- How do applications benefit from WildFly passing TCK tests?
 		- Ensures that applications written to the EE specs are (somewhat) portable to different Jakarta EE implementations.
@@ -19,6 +28,15 @@ This talk will be a quick (20 minute) introduction to the Jakarta EE TCK project
 			- Yes you can add new tests for the next EE release being developed.  This will soon be Jakarta EE 12.  See the next slide for more information.
 
 ---
+
+
+
+
+
+
+
+
+
 
 - How to ensure your application is portable to different EE implementations
 	- More clearly, assume that your application depends on a Persistence SPEC API method foobar() and foobar doesn't work as described in the Persistence SPEC document.  Of course there is no foobar method but this is just an example.
@@ -34,6 +52,15 @@ This talk will be a quick (20 minute) introduction to the Jakarta EE TCK project
 			- Later for Jakarta EE 12 we will see how far we get with further improvements.
 
 ---
+
+
+
+
+
+
+
+
+
 
 -  Resources
 	- Sign up for the Platform TCK mailing list https://accounts.eclipse.org/mailing-list/jakartaee-tck-dev 
