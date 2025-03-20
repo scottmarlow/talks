@@ -38,6 +38,16 @@ This talk will be a quick (20 minute) introduction to the Jakarta EE TCK project
 &nbsp;
 &nbsp;
 &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 - How to ensure your application is portable to different EE implementations
 	- More clearly, assume that your application depends on a Persistence SPEC API method foobar() and foobar doesn't work as described in the Persistence SPEC document.  Of course there is no foobar method but this is just an example.
 		- You can create a https://github.com/jakartaee/platform-tck pull request to add a test for the foobar method that all Jakarta EE implementations will have to pass.  
@@ -52,6 +62,16 @@ This talk will be a quick (20 minute) introduction to the Jakarta EE TCK project
 			- Later for Jakarta EE 12 we will see how far we get with further improvements.
 
 ---
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
