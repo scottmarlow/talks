@@ -25,6 +25,20 @@ This talk will be a quick (20 minute) introduction to the Jakarta EE TCK project
 &nbsp;
 &nbsp;
 &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 - 2. Relationship between the TCK tests and your applications
 	- How do applications benefit from WildFly passing TCK tests?
